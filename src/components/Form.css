@@ -1,0 +1,54 @@
+form{
+    min-height: 20vh;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    padding-top: 80px;
+  }
+  form input,
+  form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+  }
+  form button {
+    color: rgb(114, 72, 72);
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  form button:hover{
+    background: #FF6F47;
+    color: white;
+  }
+  select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+  }
+  .select{
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  select{
+    color: #FF6F47;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    width: 12rem;
+  }
+  select::after{
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background: #FF6F47;
+    cursor: pointer;
+    pointer-events: none;
+  }

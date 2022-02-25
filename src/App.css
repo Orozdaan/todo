@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: antiquewhite;
+  color: white;
+  font-family: "poppins", sans-serif;
+  min-height: 100vh;
+}
+header{
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 50px;
+}
+/* header, */
+form{
+  min-height: 20vh;
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  padding-top: 80px;
+}
